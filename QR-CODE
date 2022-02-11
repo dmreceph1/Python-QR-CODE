@@ -1,0 +1,22 @@
+import qrcode
+code=qrcode.make("https://escape-code1.blogspot.com/2021/12/python-ile-qr-code-olusturma.html#more")
+code.save("qrcode1.png")
+print(code)
+
+"""
+python-qrcode > Python QR kodu görüntü oluşturucu
+
+box_size > QR kodunun her kutusu için piksel sayısını 
+belirler.
+
+border > Kutuların kenarlık kalınlığını belirler. Varsayılan değer, minimum boyut olan 4'tür.
+
+error_correction > Kullanılan hata düzeltmesini kontrol eder.4'e ayrılır;
+
+ERROR_CORRECT_L - Yaklaşık% 7 veya daha az hata düzeltilebilir.
+ERROR_CORRECT_M- Yaklaşık% 15 veya daha az hata düzeltilebilir. Bu varsayılan değerdir.
+ERROR_CORRECT_Q - Yaklaşık% 25 veya daha az hata düzeltilebilir.
+ERROR_CORRECT_H - Yaklaşık% 30 veya daha az hata düzeltilebilir
+"""
+
+
